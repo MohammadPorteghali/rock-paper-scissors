@@ -58,7 +58,7 @@ export default {
     display: flex;
     width: 50vw;
 
-    @include respond(big-phone) {
+    @include respond(normal-phone) {
       transform: translateX(-50%) scale(2);
       bottom: -55vw;
     }
@@ -108,7 +108,7 @@ export default {
       }
 
       & button {
-        margin-top: 2vw;
+        margin-top: 10px;
         font-size: 1vw;
         font-weight: 400;
         padding: 0.9vw 3.5vw;
@@ -132,7 +132,7 @@ export default {
       flex-direction: column;
       text-align: center;
       position: absolute;
-      bottom: -115vw;
+      bottom: -58vh;
       left: 50%;
       transform: translateX(-50%);
       width: 100%;
@@ -141,12 +141,12 @@ export default {
     & .mobile-result-title {
       color: white;
       font-weight: 700;
-      font-size: 13vw;
+      font-size: 40px;
     }
 
     & button {
       margin-top: 5.5vw;
-      font-size: 4.2vw;
+      font-size: 15px;
       font-weight: 400;
       padding: 3vw 15.5vw;
       border-radius: 7px;

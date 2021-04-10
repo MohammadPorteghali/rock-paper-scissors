@@ -43,7 +43,13 @@ export default {
   @include respond(big-phone) {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20vw;
+    bottom: 9vh;
+  }
+
+  @include respond(phone) {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3vh;
   }
 }
 </style>
