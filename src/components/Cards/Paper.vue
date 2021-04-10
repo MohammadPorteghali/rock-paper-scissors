@@ -1,5 +1,5 @@
 <template>
-  <button class="card">
+  <button class="card" @click="selectCard" :disabled="$store.state.result.length != 0">
     <div class="bg">
       <img src="@/assets/images/icon-paper.svg" alt="">
     </div>
@@ -8,7 +8,11 @@
 
 <script>
 export default {
-
+  methods: {
+    selectCard() {
+      this.$store.commit('pick', 'paper');
+    }
+  }
 }
 </script>
 

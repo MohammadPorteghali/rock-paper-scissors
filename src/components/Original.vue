@@ -1,6 +1,6 @@
 <template>
   <div class="game-board">
-    <div class="bg">
+    <div class="container">
       <img src="../assets/images/bg-triangle.svg" alt="">
       <paper class="paper" />
       <scissors class="scissors" />
@@ -27,7 +27,7 @@ export default {
 .game-board {
   position: relative;
 
-  & .bg {
+  & .container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

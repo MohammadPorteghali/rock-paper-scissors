@@ -3,8 +3,8 @@
     <div class="box">
       <img src="../assets/images/logo.svg" alt="">
       <div class="score">
-        <div class="title">score</div>
-        <div class="num">12</div>
+        <div class="title">SCORE</div>
+        <div class="num">{{ $store.state.score }}</div>
       </div>
     </div>
   </div>
@@ -31,7 +31,6 @@ export default {
     @include respond(big-phone) {
       margin: 3vw auto 20vw;
     }
-
     
     @include respond(big-phone) {
       width: 73vw;
@@ -72,6 +71,8 @@ export default {
 
         @include respond(big-phone) {
           font-size: 3vw;
+          letter-spacing: 1px;
+          font-weight: 600;
         }
       }
 
@@ -81,7 +82,7 @@ export default {
         color: $dark-text;
 
         @include respond(big-phone) {
-          font-size: 9vw;
+          font-size: 9.5vw;
         }
       }
     }
