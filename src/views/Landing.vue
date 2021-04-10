@@ -40,10 +40,10 @@ export default {
   font-size: 18px;
   background: none;
 
-    @include respond(big-phone) {
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 20vw;
-    }
+  @include respond(big-phone) {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20vw;
+  }
 }
 </style>
