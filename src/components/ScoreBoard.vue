@@ -24,9 +24,13 @@ export default {
     width: 48vw;
     border: 3px solid $header-outline;
     border-radius: 15px;
-    margin: 48px auto;
+    margin: 3vw auto 10vw;
     padding: 18px;
     display: flex;
+
+    @include respond(big-phone) {
+      margin: 3vw auto 20vw;
+    }
 
     
     @include respond(big-phone) {
@@ -38,7 +42,7 @@ export default {
 
     & img {
       margin: 10px 0;
-        height: 8.5vw;
+        height: 7.5vw;
       
       @include respond(big-phone) {
         margin: 7px 0 0;

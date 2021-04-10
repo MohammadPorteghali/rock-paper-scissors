@@ -1,11 +1,11 @@
 /* =================== COLORS =================== */
 
 // Primary
-$scissors: hsl(39, 89%, 49%) to hsl(40, 84%, 53%);
-$paper: hsl(230, 89%, 62%) to hsl(230, 89%, 65%);
-$rock: hsl(349, 71%, 52%) to hsl(349, 70%, 56%);
-$lizard: hsl(261, 73%, 60%) to hsl(261, 72%, 63%);
-$cyan: hsl(189, 59%, 53%) to hsl(189, 58%, 57%);
+$scissors: linear-gradient(to top, rgb(236, 159, 15), rgb(236, 170, 34));
+$paper: linear-gradient(to top, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+$rock: linear-gradient(to top, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+$lizard: linear-gradient(to top, hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+$cyan: linear-gradient(to top, hsl(189, 59%, 53%), hsl(189, 58%, 57%));
 
 // Neutral
 
