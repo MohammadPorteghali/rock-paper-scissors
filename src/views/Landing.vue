@@ -1,13 +1,15 @@
 <template>
   <div>
-    configured
+    <score-board />
   </div>
 </template>
 
 <script>
+import ScoreBoard from '../components/ScoreBoard.vue'
 
 export default {
-  components: { 
+  components: {
+    ScoreBoard,
   } 
 }
 </script>
