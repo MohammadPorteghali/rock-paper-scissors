@@ -24,7 +24,7 @@ export default {
     width: 48vw;
     border: 3px solid $header-outline;
     border-radius: 15px;
-    margin: 3vw auto 10vw;
+    margin: 3vw auto 15vh;
     padding: 18px;
     display: flex;
 
